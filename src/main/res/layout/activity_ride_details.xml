@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation_list"
+    tools:context=".RideDetailsActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:background="#1662db"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1662db"
+        android:text="Ride details"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:textColor="#000000"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Destination"
+            android:textSize="24sp"
+            android:textStyle="bold"
+           android:layout_marginRight="20dp" />
+
+        <EditText
+            android:id="@+id/destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Destination"
+            android:inputType="textPersonName"
+            android:editable="false"
+            android:clickable="false"
+            android:focusable="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Distance(KM)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp" />
+
+        <EditText
+            android:id="@+id/distance"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Distance in KM"
+            android:inputType="textPersonName"
+android:editable="false"
+            android:clickable="false"
+            android:focusable="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Estimated Price"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp" />
+
+        <EditText
+            android:id="@+id/price"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Extimated Price"
+            android:inputType="textPersonName"
+            android:editable="false"
+            android:clickable="false"
+            android:focusable="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Truck Size"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp" />
+
+        <Spinner
+            android:id="@+id/truckSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Map"
+       android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:gravity="center">
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
+</LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation_list"
+    android:layout_gravity="center"
+    android:paddingTop="100dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(balvindersingh1404@gmail.com)"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView2"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toronto Moving Co."
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:id="@+id/textView"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_below="@+id/imageView2"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/packericon"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
