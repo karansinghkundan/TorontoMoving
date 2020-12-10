@@ -3,9 +3,7 @@ package info.androidhive.sqlite.utils;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by Abhi on 20-05-2016.
- */
+
 public class ShopDetailsResponse {
     @SerializedName("result")
     @Expose

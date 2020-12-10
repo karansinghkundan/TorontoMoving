@@ -9,9 +9,6 @@ import java.util.List;
 import info.androidhive.sqlite.Model.Geometry;
 import info.androidhive.sqlite.Model.OpeningHours;
 
-/**
- * Created by Abhi on 20-05-2016.
- */
 public class ShopDetails {
     @SerializedName("formatted_phone_number")
     @Expose

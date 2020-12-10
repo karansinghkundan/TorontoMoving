@@ -3,9 +3,7 @@ package info.androidhive.sqlite.utils;
 import android.app.Application;
 
 
-/**
- * Created by Abhi on 19-05-2016.
- */
+
 public class MyApplication extends Application {
 
     private NetComponent mNetComponent;

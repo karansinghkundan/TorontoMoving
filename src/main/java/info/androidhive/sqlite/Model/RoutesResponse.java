@@ -6,9 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Abhi on 22-05-2016.
- */
+
 public class RoutesResponse {
     @SerializedName("routes")
     @Expose

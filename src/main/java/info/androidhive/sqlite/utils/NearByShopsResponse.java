@@ -8,9 +8,7 @@ import java.util.List;
 
 import info.androidhive.sqlite.Model.Shop;
 
-/**
- * Created by Abhi on 17-05-2016.
- */
+
 public class NearByShopsResponse {
     @SerializedName("results")
     @Expose
